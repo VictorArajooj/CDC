@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{	
+	//conversão para base 2...
+  
+	int conv[10]; //usar outro método para colocar os valores.
+	int num, base, div, i;
+	
+	cin >> num;
+	div = num;
+	
+	for(i = 0; div > 2; i++){
+		conv[i] = div % 2; //recebe o resto para conversão.
+		div = div/2; //armazena o resultado da divisão para dividir novamente.
+		cout<< div << " resto = " << conv[i] << endl; //linha para teste.
+	}
+	cout<< endl << endl << num; //pula duas linhas e mostra o valor que foi digitado para conversão.
+	while(i > 0){
+		cout<< conv[i]; //imprime a conversão (porém, imprime lixo nas posições que nao foram ocupadas).
+		i--; //decremento para imprimir de trás pra frente.
+	}
+}
