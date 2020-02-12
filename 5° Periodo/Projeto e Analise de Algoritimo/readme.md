@@ -23,3 +23,5 @@ Sendo,
 **Melhor Caso:** corresponde ao menor tempo de execução sobre todas as possiveis entradas de tamanho m.
 
 **Pior Caso:** corresponde ao maior tempo de execução sobre todas as entradas de tamanho m.
+
+**Caso Medio:** corresponde á média dos tempos de execução de todas as entradas de tamanho m.
