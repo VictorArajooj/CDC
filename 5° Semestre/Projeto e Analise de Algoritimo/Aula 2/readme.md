@@ -1,5 +1,10 @@
 # Unidade 1 - Técnicas de Análise de Algoritmos
 
+1. Técnicas e análise de algoritmo (lista=prova1)
+2. Ordenação (Apresentação)
+3. Paradigmas (Apresentação)
+4. Algoritmos em grafo (Apresentação)
+
 ## Ideia
 
 ### 1.1 Função de Complexidade 
